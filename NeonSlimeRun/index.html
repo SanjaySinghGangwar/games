@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>NEON SLIME RUN</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <header id="top">
+      <div class="stat">
+        <span class="lbl">DISTANCE</span>
+        <span id="dist">0m</span>
+      </div>
+      <div class="stat">
+        <span class="lbl">SCORE</span>
+        <span id="score">0</span>
+      </div>
+      <div class="stat">
+        <span class="lbl">COMBO</span>
+        <span id="combo">x1</span>
+      </div>
+      <div class="stat coins">
+        <span class="lbl">STARS</span>
+        <span id="coins">0</span>
+      </div>
+    </header>
+
+    <div id="stage">
+      <canvas id="game" width="960" height="540"></canvas>
+      <div id="toast"></div>
+    </div>
+
+    <div id="hint-bar">
+      <span><kbd>SPACE</kbd>/<kbd>↑</kbd> Jump</span>
+      <span><kbd>↓</kbd> Slide</span>
+      <span><kbd>SHIFT</kbd> Dash</span>
+      <span><kbd>P</kbd> Pause</span>
+    </div>
+
+    <div id="touch" class="hidden">
+      <button type="button" id="t-slide">SLIDE</button>
+      <button type="button" id="t-jump">JUMP</button>
+      <button type="button" id="t-dash">DASH</button>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader" class="screen">
+      <div class="card">
+        <img src="assets/idle_01_neutral.png" class="bob" alt="" />
+        <h2>WARMING UP…</h2>
+        <div class="bar"><i id="load-fill"></i></div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div id="menu" class="screen hidden">
+      <div class="card wide">
+        <div class="title-row">
+          <img src="assets/hop_02_airborne.png" class="bob" alt="" />
+          <div>
+            <p class="tag">ENDLESS · NEON · VOID</p>
+            <h1>NEON SLIME RUN</h1>
+            <p class="sub">Jump · Slide · Dash · Don't die cute</p>
+          </div>
+        </div>
+        <p class="blurb">
+          Auto-run through the void rail. Hop spikes, slide under beams,
+          dash through enemies, chain combos for crazy score.
+        </p>
+        <button id="btn-play" class="primary">▶ RUN</button>
+        <p class="meta">Best: <b id="best">0m</b> · High score: <b id="best-score">0</b></p>
+      </div>
+    </div>
+
+    <!-- Pause -->
+    <div id="pause" class="screen hidden">
+      <div class="card">
+        <h2>PAUSED</h2>
+        <button id="btn-resume" class="primary">RESUME</button>
+        <button id="btn-quit" class="ghost">MENU</button>
+      </div>
+    </div>
+
+    <!-- Dead -->
+    <div id="over" class="screen hidden">
+      <div class="card">
+        <h2>SPLAT!</h2>
+        <p class="result"><span id="final-dist">0m</span></p>
+        <ul class="stats">
+          <li>Score <b id="final-score">0</b></li>
+          <li>Stars <b id="final-coins">0</b></li>
+          <li>Max combo <b id="final-combo">x1</b></li>
+        </ul>
+        <p id="new-best" class="new-best hidden">★ NEW BEST ★</p>
+        <button id="btn-retry" class="primary">AGAIN</button>
+        <button id="btn-menu" class="ghost">MENU</button>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

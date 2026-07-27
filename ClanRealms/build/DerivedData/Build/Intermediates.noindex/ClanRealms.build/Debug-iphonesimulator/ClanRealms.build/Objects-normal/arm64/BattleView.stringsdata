@@ -1,0 +1,56 @@
+{
+  "source": "/Users/vaibhav/ClanRealms/ClanRealms/Views/BattleView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld%% DESTROYED",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "ARMY",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Destruction %lld%%",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 234
+        }
+      },
+      {
+        "comment": "",
+        "key": "VICTORY!",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "DEFEAT",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 230
+        }
+      }
+    ]
+  },
+  "version": 1
+}

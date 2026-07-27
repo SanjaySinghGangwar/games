@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001 /* ClanRealmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* ClanRealmsApp.swift */; };
+		A002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* ContentView.swift */; };
+		A003 /* SharedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* SharedUI.swift */; };
+		A004 /* GameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* GameCatalog.swift */; };
+		A005 /* PlayerProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* PlayerProgress.swift */; };
+		A006 /* ArenaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* ArenaScene.swift */; };
+		A007 /* ChampionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* ChampionNode.swift */; };
+		A008 /* UnitNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* UnitNode.swift */; };
+		A009 /* StructureNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* StructureNode.swift */; };
+		A00A /* FXLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A /* FXLibrary.swift */; };
+		A00B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00B /* HomeView.swift */; };
+		A00C /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00C /* ArenaView.swift */; };
+		A00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F001 /* ClanRealmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanRealmsApp.swift; sourceTree = "<group>"; };
+		F002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F003 /* SharedUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUI.swift; sourceTree = "<group>"; };
+		F004 /* GameCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalog.swift; sourceTree = "<group>"; };
+		F005 /* PlayerProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProgress.swift; sourceTree = "<group>"; };
+		F006 /* ArenaScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaScene.swift; sourceTree = "<group>"; };
+		F007 /* ChampionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionNode.swift; sourceTree = "<group>"; };
+		F008 /* UnitNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitNode.swift; sourceTree = "<group>"; };
+		F009 /* StructureNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNode.swift; sourceTree = "<group>"; };
+		F00A /* FXLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXLibrary.swift; sourceTree = "<group>"; };
+		F00B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F00C /* ArenaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
+		F00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00E /* ClanRealms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClanRealms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FW01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G000 = {
+			isa = PBXGroup;
+			children = (
+				G001 /* ClanRealms */,
+				G002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00E /* ClanRealms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G001 /* ClanRealms */ = {
+			isa = PBXGroup;
+			children = (
+				G003 /* Models */,
+				G004 /* Game */,
+				G005 /* Views */,
+				G006 /* Components */,
+				F001 /* ClanRealmsApp.swift */,
+				F002 /* ContentView.swift */,
+				F00D /* Assets.xcassets */,
+			);
+			path = ClanRealms;
+			sourceTree = "<group>";
+		};
+		G003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F004 /* GameCatalog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G004 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F005 /* PlayerProgress.swift */,
+				F006 /* ArenaScene.swift */,
+				F007 /* ChampionNode.swift */,
+				F008 /* UnitNode.swift */,
+				F009 /* StructureNode.swift */,
+				F00A /* FXLibrary.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		G005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F00B /* HomeView.swift */,
+				F00C /* ArenaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F003 /* SharedUI.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T001 /* ClanRealms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C002 /* Build configuration list for PBXNativeTarget "ClanRealms" */;
+			buildPhases = (
+				S001 /* Sources */,
+				FW01 /* Frameworks */,
+				R001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClanRealms;
+			productName = ClanRealms;
+			productReference = F00E /* ClanRealms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = C001 /* Build configuration list for PBXProject "ClanRealms" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G000;
+			productRefGroup = G002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T001 /* ClanRealms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001 /* ClanRealmsApp.swift in Sources */,
+				A002 /* ContentView.swift in Sources */,
+				A003 /* SharedUI.swift in Sources */,
+				A004 /* GameCatalog.swift in Sources */,
+				A005 /* PlayerProgress.swift in Sources */,
+				A006 /* ArenaScene.swift in Sources */,
+				A007 /* ChampionNode.swift in Sources */,
+				A008 /* UnitNode.swift in Sources */,
+				A009 /* StructureNode.swift in Sources */,
+				A00A /* FXLibrary.swift in Sources */,
+				A00B /* HomeView.swift in Sources */,
+				A00C /* ArenaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Aether Rift";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaibhav.ClanRealms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Aether Rift";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaibhav.ClanRealms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C001 /* Build configuration list for PBXProject "ClanRealms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01 /* Debug */,
+				BC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C002 /* Build configuration list for PBXNativeTarget "ClanRealms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC03 /* Debug */,
+				BC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P001 /* Project object */;
+}

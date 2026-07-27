@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>VOID SLIME</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <!-- Loading -->
+    <div id="loader" class="screen">
+      <div class="panel small loader-panel">
+        <img src="assets/idle_01_neutral.png" alt="" class="loader-slime" />
+        <h2>LOADING VOID…</h2>
+        <div class="loader-bar"><div id="loader-fill"></div></div>
+        <p id="loader-text" class="hint">Fetching slime juice…</p>
+      </div>
+    </div>
+
+    <div id="hud" class="hidden">
+      <div class="hud-block">
+        <span class="label">SCORE</span>
+        <span id="score">0</span>
+      </div>
+      <div class="hud-block">
+        <span class="label">WAVE</span>
+        <span id="wave">1</span>
+      </div>
+      <div class="hud-block">
+        <span class="label">COMBO</span>
+        <span id="combo">x1</span>
+      </div>
+      <div class="hud-block hp-block">
+        <span class="label">HP</span>
+        <div class="bar"><div id="hp-fill"></div></div>
+      </div>
+      <div class="hud-block rage-block">
+        <span class="label">RAGE</span>
+        <div class="bar"><div id="rage-fill"></div></div>
+      </div>
+      <div class="hud-block">
+        <span class="label">SUPER</span>
+        <div class="bar"><div id="super-fill"></div></div>
+      </div>
+    </div>
+
+    <div id="ability-row" class="hidden">
+      <div class="ability" id="ab-dash" data-tip="Dash"><span>DASH</span><div class="cd"><i id="cd-dash"></i></div></div>
+      <div class="ability" id="ab-hop" data-tip="Hop"><span>HOP</span><div class="cd"><i id="cd-hop"></i></div></div>
+      <div class="ability" id="ab-atk" data-tip="Attack"><span>ATK</span><div class="cd"><i id="cd-atk"></i></div></div>
+      <div class="ability" id="ab-super" data-tip="Super"><span>SUPER</span><div class="cd"><i id="cd-super"></i></div></div>
+    </div>
+
+    <div id="buffs"></div>
+    <div id="tip" class="hidden"></div>
+
+    <div id="canvas-wrap" class="hidden">
+      <canvas id="game" width="960" height="600"></canvas>
+      <div id="announcer"></div>
+      <div id="fx-flash"></div>
+      <div id="vignette"></div>
+      <div id="wave-banner" class="hidden"></div>
+    </div>
+
+    <div id="touch" class="hidden">
+      <div id="stick-zone">
+        <div id="stick-base"><div id="stick-knob"></div></div>
+      </div>
+      <div id="touch-btns">
+        <button type="button" id="btn-dash">DASH</button>
+        <button type="button" id="btn-hop">HOP</button>
+        <button type="button" id="btn-atk">ATK</button>
+        <button type="button" id="btn-super">SUPER</button>
+      </div>
+    </div>
+
+    <div id="overlay" class="screen hidden">
+      <div class="panel crazy">
+        <div class="logo-row">
+          <img id="title-slime" src="assets/idle_01_neutral.png" alt="" />
+          <div>
+            <p class="eyebrow">DARK FANTASY ARENA</p>
+            <h1>VOID SLIME</h1>
+            <p class="subtitle">SURVIVE THE VOID</p>
+          </div>
+        </div>
+        <p class="blurb">
+          Smash wraiths, shards, brutes & bombers. Build combos, dash through danger,
+          fill <strong>RAGE</strong> and drop a <strong>SUPER</strong> nova.
+        </p>
+        <ul class="controls">
+          <li><kbd>WASD</kbd> Move · <kbd>Space</kbd> Hop · <kbd>Shift</kbd> Dash</li>
+          <li><kbd>J</kbd> / Click Attack · <kbd>X</kbd> Super · <kbd>P</kbd> Pause</li>
+          <li><kbd>M</kbd> Mute · Auto-aim helps when enemies are close</li>
+        </ul>
+        <div class="diff-row">
+          <span class="label">DIFFICULTY</span>
+          <div class="diff-btns">
+            <button type="button" class="diff active" data-diff="normal">NORMAL</button>
+            <button type="button" class="diff" data-diff="chaos">CHAOS</button>
+          </div>
+        </div>
+        <button id="btn-start" class="primary pulse">▶ START RUN</button>
+        <p class="hint">Best: <span id="best-score">0</span> · Press Start, then learn by smashing</p>
+      </div>
+    </div>
+
+    <div id="pause" class="screen hidden">
+      <div class="panel small">
+        <h2>PAUSED</h2>
+        <p class="hint" style="margin-bottom:14px">Wave still waiting. You good?</p>
+        <button id="btn-resume" class="primary">RESUME</button>
+        <button id="btn-mute" class="ghost">TOGGLE MUTE (M)</button>
+        <button id="btn-quit" class="ghost">QUIT TO MENU</button>
+      </div>
+    </div>
+
+    <div id="gameover" class="screen hidden">
+      <div class="panel">
+        <h2>RUN OVER</h2>
+        <p class="result">Score <span id="final-score">0</span></p>
+        <ul class="stats" id="final-stats">
+          <li>Wave <span id="final-wave">1</span></li>
+          <li>Max combo <span id="final-combo">x1</span></li>
+          <li>Kills <span id="final-kills">0</span></li>
+          <li>Time <span id="final-time">0s</span></li>
+        </ul>
+        <p class="hint new-best hidden" id="new-best">★ NEW BEST SCORE ★</p>
+        <button id="btn-retry" class="primary">PLAY AGAIN</button>
+        <button id="btn-menu" class="ghost">MENU</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

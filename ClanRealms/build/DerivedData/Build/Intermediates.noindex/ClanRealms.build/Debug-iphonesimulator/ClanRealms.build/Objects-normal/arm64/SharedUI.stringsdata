@@ -1,0 +1,16 @@
+{
+  "source": "/Users/vaibhav/ClanRealms/ClanRealms/Components/SharedUI.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 65
+        }
+      }
+    ]
+  },
+  "version": 1
+}

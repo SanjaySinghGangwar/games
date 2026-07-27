@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>PRISM BREAK</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <header id="hud">
+      <div class="cell">
+        <span class="k">SCORE</span>
+        <span id="score">0</span>
+      </div>
+      <div class="cell">
+        <span class="k">LEVEL</span>
+        <span id="level">1</span>
+      </div>
+      <div class="cell">
+        <span class="k">LIVES</span>
+        <span id="lives">●●●</span>
+      </div>
+      <div class="cell">
+        <span class="k">BEST</span>
+        <span id="best">0</span>
+      </div>
+    </header>
+
+    <main id="stage">
+      <canvas id="c" width="480" height="640" aria-label="Prism Break game canvas"></canvas>
+      <div id="msg"></div>
+    </main>
+
+    <footer id="help">
+      <span><kbd>←</kbd><kbd>→</kbd> / mouse move paddle</span>
+      <span><kbd>Space</kbd> launch / pause</span>
+      <span>Break all prisms · catch power-ups</span>
+    </footer>
+
+    <!-- Screens -->
+    <div id="boot" class="screen">
+      <div class="panel">
+        <div class="logo">◆ PRISM<br />BREAK</div>
+        <p class="tag">geometry · bounce · chaos (the good kind)</p>
+        <div class="bar"><i id="boot-bar"></i></div>
+      </div>
+    </div>
+
+    <div id="title" class="screen hidden">
+      <div class="panel">
+        <div class="logo">◆ PRISM<br />BREAK</div>
+        <p class="blurb">
+          Classic brick-breaker rebuilt as a sharp neon arcade.
+          Shatter prism walls, chain multi-ball mayhem, and clear every level.
+        </p>
+        <ul class="legend">
+          <li><i class="p multi"></i> Multi-ball</li>
+          <li><i class="p wide"></i> Wide paddle</li>
+          <li><i class="p laser"></i> Laser</li>
+          <li><i class="p life"></i> Extra life</li>
+          <li><i class="p slow"></i> Slow-mo</li>
+        </ul>
+        <button id="btn-start" class="btn primary">START GAME</button>
+        <p class="fine">Best score: <strong id="title-best">0</strong></p>
+      </div>
+    </div>
+
+    <div id="pause" class="screen hidden">
+      <div class="panel slim">
+        <h2>PAUSED</h2>
+        <button id="btn-resume" class="btn primary">RESUME</button>
+        <button id="btn-quit" class="btn ghost">TITLE</button>
+      </div>
+    </div>
+
+    <div id="levelup" class="screen hidden">
+      <div class="panel slim">
+        <h2 id="levelup-text">LEVEL CLEAR</h2>
+        <p class="fine" id="levelup-sub">Nice break.</p>
+        <button id="btn-next" class="btn primary">NEXT LEVEL</button>
+      </div>
+    </div>
+
+    <div id="over" class="screen hidden">
+      <div class="panel slim">
+        <h2>GAME OVER</h2>
+        <p class="big" id="over-score">0</p>
+        <p class="fine" id="over-note"></p>
+        <button id="btn-retry" class="btn primary">PLAY AGAIN</button>
+        <button id="btn-title" class="btn ghost">TITLE</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

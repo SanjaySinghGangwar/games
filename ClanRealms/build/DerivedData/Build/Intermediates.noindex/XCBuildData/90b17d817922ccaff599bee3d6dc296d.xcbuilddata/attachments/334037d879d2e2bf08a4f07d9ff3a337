@@ -1,0 +1,129 @@
+{
+  "" : {
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealms-primary.dia",
+    "emit-module-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealms-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealms-primary-emit-module.dia",
+    "pch" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealms-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealms-primary.swiftdeps"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/ClanRealmsApp.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ClanRealmsApp~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Components/SharedUI.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/SharedUI~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/ContentView.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Game/BattleScene.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleScene~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Game/BuildingNode.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BuildingNode~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Game/FXLibrary.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/FXLibrary~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Game/PlayerProgress.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/PlayerProgress~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Game/TroopNode.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/TroopNode~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Models/GameCatalog.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GameCatalog~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Views/BattleView.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/BattleView~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/ClanRealms/Views/HomeView.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/ClanRealms.build/Debug-iphonesimulator/ClanRealms.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

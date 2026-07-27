@@ -1,0 +1,136 @@
+{
+  "source": "/Users/vaibhav/ClanRealms/ClanRealms/Views/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Aether Rift",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "A simple arena fight — move, summon, win.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "HOW TO PLAY",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "YOUR HERO",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Spirit helpers…",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "STAGES",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start with stage 1 — left = your base, right = enemy.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stage %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "ENTER",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "Locked",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "Spirit Helpers",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "These fight beside your hero (costs Energy in battle)",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 228
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "Unlock 80",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "Costs %lld energy · %lld HP",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 236
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 258
+        }
+      }
+    ]
+  },
+  "version": 1
+}

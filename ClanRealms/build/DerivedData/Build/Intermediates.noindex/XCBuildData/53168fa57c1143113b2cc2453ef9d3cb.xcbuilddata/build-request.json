@@ -1,0 +1,71 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "2504173a0d2b984c917458c33af487c5bed18ddf8ce829350787fd16b5331300"
+    }
+  ],
+  "containerPath" : "/Users/vaibhav/ClanRealms/ClanRealms.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/vaibhav/ClanRealms/build/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/vaibhav/ClanRealms/build/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/vaibhav/ClanRealms/build/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/vaibhav/ClanRealms/build/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGNING_ALLOWED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone18,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "26.5",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone18,2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "399A54FF-2937-462B-AC57-8A8E29BE65E7",
+          "TARGET_DEVICE_MODEL" : "iPhone18,2",
+          "TARGET_DEVICE_OS_VERSION" : "26.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.Metal.32023.883 $(inherited)"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

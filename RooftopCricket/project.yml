@@ -1,0 +1,43 @@
+name: RooftopCricket
+options:
+  bundleIdPrefix: com.prochonost
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+
+targets:
+  RooftopCricket:
+    type: application
+    platform: iOS
+    sources:
+      - path: RooftopCricket
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.prochonost.rooftopcricket
+        PRODUCT_NAME: RooftopCricket
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Arena Cricket
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+    info:
+      path: RooftopCricket/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIRequiresFullScreen: true
+        UIStatusBarHidden: true
+        CFBundleDisplayName: Arena Cricket

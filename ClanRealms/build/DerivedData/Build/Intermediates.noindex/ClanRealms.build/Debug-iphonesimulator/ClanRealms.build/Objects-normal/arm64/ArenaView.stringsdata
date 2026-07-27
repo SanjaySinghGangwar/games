@@ -1,0 +1,120 @@
+{
+  "source": "/Users/vaibhav/ClanRealms/ClanRealms/Views/ArenaView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Exit",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Wave %lld / %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "Combo ×%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "Got it",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your Hero",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "ENERGY",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 268
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 271
+        }
+      },
+      {
+        "comment": "",
+        "key": "for summons",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld en",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 296
+        }
+      },
+      {
+        "comment": "",
+        "key": "POWER",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "You Win!",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "Try Again",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "The enemy rift is sealed.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 353
+        }
+      },
+      {
+        "comment": "",
+        "key": "Protect your base and keep fighting.",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 353
+        }
+      }
+    ]
+  },
+  "version": 1
+}
